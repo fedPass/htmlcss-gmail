@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratuito/chiuda-in-su-della-priorita-bassa-di-marmo-bianca-di-struttura_53876-63512.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+
+hr {
+    margin: 2px 0;
+    padding: 2px 0;
+}
+
+/* ----- header ----- */
+
+.intestazione {width: 60%;
+    margin: auto;
+    background-color: #e3dddc;
+}
+
+#logo_gmail {
+    width: 50px;
+    vertical-align:middle;
+    margin: 0 10px;
+}
+
+header span {
+    color: #8f9691;
+    font-size: 20px;
+}
+
+.material-icons {
+    margin: 10px;
+    padding-top: 5px;
+}
+
+header input {
+    width: 500px;
+    background-color: #c5c9c7;
+    margin: 0 10px;
+}
+
+
+/* -----Lista mail-----*/
+#numero_evidenziato {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ed2809;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+.testo {
+    color: #8f9691;
+    font-weight: 300;
+}
+
+.star:after {
+    content: "\02605";
+    display: inline-block;
+    height: 10px;
+}
+
+.mail_nuove {
+    background-color: white;
+}
+
+.mail_lette {
+    background-color: #d8dce3;
+}
+
+.mail_nuove span {
+    font-weight: 600;}
+
+.mail_nuove,
+.mail_lette {
+    border-top: 1px solid #8f9691;
+    padding: 5px 0;
+}
+
+#ultima_mail {
+    border-bottom: 1px solid #8f9691;
+}
+
+/* -----footer----- */
+
+.riquadro_info {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: #f55142;
+    color: white;
+    padding: 5px;
+}
+
+.riquadro_info p {
+    margin: 10px 0;
+}
+
+.links {
+    padding: 5px 0;
+}
